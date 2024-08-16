@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['black-smoke']
+
+roboflow:
+  workspace: new-workspace-1gdje
+  project: smoke-bfoap
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/new-workspace-1gdje/smoke-bfoap/dataset/2
